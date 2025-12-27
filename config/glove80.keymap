@@ -330,12 +330,12 @@
 
         layer_Base {
             bindings = <
-               &kp F1    &kp F3    &kp F5   &kp F11    &kp F10                                                                                            &kp N6  &kp N8    &kp F6    &kp F7    &kp DEL
-               &kp F4    &kp N1    &kp N2    &kp N3  &kp COMMA  &kp DOT                                                                       &kp SEMI    &kp N9  &kp N0    &kp F8    &kp F9   &kp BSLH
-            &kp EQUAL     &kp Q     &kp W     &kp D      &kp K    &kp G                                                                          &kp M     &kp U   &kp O     &kp P     &kp J    &kp SQT
-              &kp ESC     &kp H     &kp N     &kp I      &kp S    &kp T                                                                          &kp L     &kp E   &kp A     &kp R  &kp FSLH  &kp PG_UP
-            &kp GRAVE     &kp V     &kp C  &kp LEFT  &kp RIGHT    &kp F  &kp LSHFT  &kp LGUI  &td_LAYER_Lower  &kp LCTRL  &kp F12  &kp RSHFT     &kp B  &kp DOWN  &kp UP  &kp LBKT  &kp RBKT  &kp PG_DN
- &magic LAYER_Magic 0  &mkp MB4  &mkp MB5     &kp X      &kp Z           &kp SPACE  &kp BSPC          &kp TAB  &kp MINUS  &kp RET   &kp LALT               &kp Y  &kp N7    &kp N5    &kp N4     &kp F2
+               &kp F1    &kp F3    &kp F5   &kp F11    &kp F10                                                                                             &kp N6  &kp N8    &kp F6    &kp F7    &kp DEL
+               &kp F4    &kp N1    &kp N2    &kp N3  &kp COMMA  &kp DOT                                                                        &kp SEMI    &kp N9  &kp N0    &kp F8    &kp F9   &kp BSLH
+            &kp EQUAL     &kp Q     &kp W     &kp D      &kp K    &kp G                                                                           &kp M     &kp U   &kp O     &kp P     &kp J    &kp SQT
+              &kp ESC     &kp H     &kp N     &kp I      &kp S    &kp T                                                                           &kp L     &kp E   &kp A     &kp R  &kp FSLH  &kp PG_UP
+            &kp GRAVE     &kp V     &kp C  &kp LEFT  &kp RIGHT    &kp F  &kp LSHFT  &kp LCTRL  &td_LAYER_Lower   &kp LGUI  &kp F12  &kp RSHFT     &kp B  &kp DOWN  &kp UP  &kp LBKT  &kp RBKT     &kp F2
+ &magic LAYER_Magic 0  &mkp MB4  &mkp MB5     &kp X      &kp Z           &kp SPACE   &kp BSPC          &kp TAB  &kp MINUS  &kp RET   &kp LALT               &kp Y  &kp N7    &kp N5    &kp N4  &kp LCTRL
             >;
         };
 
@@ -344,8 +344,8 @@
          &kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV      &kp C_NEXT         &kp C_PP                                                                                 &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP            &none  &kp PAUSE_BREAK
                &trans         &none           &none          &kp UP            &none   &kp HOME                                                          &kp LS(N9)  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp PRINTSCREEN
                &trans         &none        &kp LEFT        &kp DOWN        &kp RIGHT    &kp END                                                          &kp LS(N0)   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MINUS   &kp SCROLLLOCK
-               &trans         &none       &mkp LCLK    &mmv MOVE_UP        &mkp RCLK  &kp PG_UP                                                          &kp LS(N5)   &kp KP_N4     &kp KP_N5     &kp KP_N6      &kp KP_PLUS            &none
-               &trans     &kp K_APP  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PG_DN  &trans  &trans   &to 0  &mkp MB5     &trans     &trans   &kp COMMA   &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_ENTER           &trans
+               &trans         &none       &mkp LCLK    &mmv MOVE_UP 800       &mkp RCLK  &kp PG_UP                                                          &kp LS(N5)   &kp KP_N4     &kp KP_N5     &kp KP_N6      &kp KP_PLUS            &none
+               &trans     &kp K_APP  &mmv MOVE_LEFT 800 &mmv MOVE_DOWN 800 &mmv MOVE_RIGHT 800 &kp PG_DN  &trans  &trans   &to 0  &mkp MB5     &trans     &trans   &kp COMMA   &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_ENTER           &trans
  &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11          &kp F12             &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mkp RCLK               &kp KP_N0     &kp KP_N0    &kp KP_DOT     &kp KP_ENTER           &trans
             >;
         };
